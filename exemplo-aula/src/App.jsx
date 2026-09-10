@@ -1,12 +1,10 @@
-import Carregando from './components/Carregando'
-import ListaUsuarios from './components/ListaUsuarios'
+import NovoUsuario from "./components/NovoUsuario";
+
 
 export default function App() {
   return (
     <>
-      <Carregando/>
-      <h1>Lista de Usuário</h1>
-      <ListaUsuarios/>
+      <NovoUsuario />
     </>
   )
 }
