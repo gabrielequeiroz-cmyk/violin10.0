@@ -55,3 +55,4 @@ export default function NovoUsuario(){
             {criado && <p>Criado com id={criado.id} e nome={criado.name}</p>}
         </form>
     )
+}
